@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mattshardman/webapi-iv-challenge#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mattspress": "^2.0.0"
   }
 }

@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require('mattspress');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.status(200).send('hi');
+    res.send('hi');
 });
 
 const PORT = process.env.PORT || 4000;
-app.listen(PORT);
+app.listen(PORT, () => console.log(`listening on ${PORT}`));
